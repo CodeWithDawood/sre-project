@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="stylecontact.css"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">  -->
     <title>Login</title>
+   
 </head>
 <body>
   
@@ -21,29 +22,30 @@
              <form>
                 <div class="input-row">
                     <div class="input-group">
-                       <label><b>UserName</b></label>
-                       <input type="text" placeholder="Enter your username">
+                       <label><b>Email</b></label>
+                       <input id ="email"type="text" placeholder="Enter your Email"/>
                     </div>
                      <br/>
                     <div class="input-group">
                      <label><b>Password</b></label>
-                     <input type="text" placeholder="Password" required>
-                  </div>
+                     <input id ="password" type="text" placeholder="Password" />
                   
                  
-                   
-                </div>
-                 
-                 <button type="submit"><a href="sent.html"><b>Submit</b></a></button>
+                 <button id="Submit_btn" type="submit"><a href="sent.html"><b>Submit</b></a></button>
               </form>    
            </div>
-           <div class="alert">
+           <!-- <div class="alert">
             <span class="closebtn" onclick="this.parentElement.style.display='none';" >&times;</span>
             You Successfully Logined 
-          </div>
+          </div> -->
          
         </div>
-     </div>    
+     </div>  
+     <script type="module" src="index.js">
+
+
+
+     </script>  
 </body>
 
 

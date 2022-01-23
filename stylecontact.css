@@ -4,8 +4,7 @@
 }
 body{
    font-family: 'Poppins', sans-serif;
-   background:linear-gradient(pink,white),
-   url(picture/restaurant.jpg);
+   background:linear-gradient(pink,white);
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: 2000px 970px;
